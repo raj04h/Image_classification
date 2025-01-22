@@ -47,7 +47,15 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.tensorflow.lite.support)
     implementation(libs.tensorflow.lite.metadata)
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("org.tensorflow:tensorflow-lite:2.4.0")
+
+
+
+
+
 }
